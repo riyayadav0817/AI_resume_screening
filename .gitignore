@@ -1,0 +1,41 @@
+﻿# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# React dependencies and build output
+node_modules/
+dist/
+.vite/
+
+# Database and uploaded candidate resumes
+*.db
+*.sqlite
+*.sqlite3
+backend/uploads/
+backend/test_resume.docx
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files
+*.bak
+*.backup
+*.tmp
+*.old
+*.log
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
